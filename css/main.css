@@ -1,12 +1,17 @@
 html {
+  box-sizing: border-box;
   background-color: #ffe500;
   line-height: 1.5;
   text-align: center;
   min-width: 25em;
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 h1 {
-  font-family: 'Sigmar One';
+  font-family: "Sigmar One";
   text-align: center;
   font-size: 3rem;
   color: #b20953;
@@ -50,7 +55,7 @@ div {
 }
 
 h2 {
-  font-family: 'Sigmar One';
+  font-family: "Sigmar One";
   color: #b20953;
   text-align: left;
   font-size: 1.875rem;
@@ -59,11 +64,13 @@ h2 {
 
 img {
   width: 100%;
+  display: block;
 }
 
 p {
   font-family: Georgia;
   padding-bottom: .75em;
+  color: #2f2d13;
 }
 
 footer {

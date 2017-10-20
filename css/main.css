@@ -62,10 +62,11 @@ img {
 }
 
 p {
+  font-family: Georgia;
   padding-bottom: .75em;
 }
 
-.berries {
+footer {
   text-align: center;
   font-size: .75rem;
 }

@@ -5,35 +5,12 @@ html {
   min-width: 25em;
 }
 
-body {
-  margin: 0;
-  display: block;
-}
-
 h1 {
   font-family: 'Sigmar One';
   text-align: center;
   font-size: 3rem;
   color: #b20953;
   margin: 0;
-}
-
-h2 {
-  font-family: 'Sigmar One';
-  color: #b20953;
-  text-align: left;
-  font-size: 1.875rem;
-  padding-top: .75em;
-}
-
-div {
-  background-color: white;
-  padding: 0 .75em;
-  text-align: left;
-}
-
-img {
-  width: 100%;
 }
 
 ul {
@@ -61,7 +38,38 @@ li {
   list-style-type: none;
 }
 
+body {
+  margin: 0;
+  display: block;
+}
+
+div {
+  background-color: white;
+  padding: 0 .75em;
+  text-align: left;
+}
+
+h2 {
+  font-family: 'Sigmar One';
+  color: #b20953;
+  text-align: left;
+  font-size: 1.875rem;
+  padding-top: .75em;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  padding-bottom: .75em;
+}
+
 .berries {
   text-align: center;
   font-size: .75rem;
+}
+
+.current {
+  background-color: #cc1465;
 }

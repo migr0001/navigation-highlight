@@ -32,7 +32,6 @@ a {
   text-decoration: none;
   text-align: center;
   font-size: 1.125rem;
-  margin-bottom: .1em;
 }
 
 a:hover {
@@ -41,6 +40,7 @@ a:hover {
 
 li {
   list-style-type: none;
+  margin: 0 auto;
 }
 
 body {
@@ -60,6 +60,8 @@ h2 {
   text-align: left;
   font-size: 1.875rem;
   padding-top: .75em;
+  padding-bottom: .75em;
+  margin: .2em;
 }
 
 img {
@@ -79,5 +81,5 @@ footer {
 }
 
 .current {
-  background-color: #cc1465;
+  background-color: #b20953;
 }
